@@ -40,7 +40,7 @@
 			<!--<b-button v-b-modal.modal-prevent-closing>Open Modal</b-button>-->
 
 
-			<b-modal id="modal-prevent-closing" ref="modal" :title="modalTitle" :visible="modalShow">				
+			<b-modal id="modal-prevent-closing" ref="modal" :title="modalTitle" :visible="modalShow" :hide-footer="true">				
 
 				<form ref="form" @submit.prevent="salvarUsuario">
 						

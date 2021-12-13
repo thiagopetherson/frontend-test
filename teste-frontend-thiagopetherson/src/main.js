@@ -18,6 +18,7 @@ Vue.use(IconsPlugin) // Adicionando o plugin de ícones do bootstrap vue na apli
 
 Vue.config.productionTip = false
 
+
 // Inicializando firebase
 
 const firebaseConfig = {
